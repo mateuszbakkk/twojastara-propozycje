@@ -293,3 +293,4 @@ em{font-style:italic}
 .faq-list details p{padding:0 0 28px;color:var(--muted);max-width:68ch;font-size:16.5px}
 .f-osk .faq-list summary{text-transform:none;font-stretch:90%}
 @media(max-width:900px){.faq .col-l{margin-bottom:28px}}
+@media(min-width:700px){.rev-grid:has(>:nth-child(4):last-child){grid-template-columns:repeat(2,1fr)}}
