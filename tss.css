@@ -294,3 +294,7 @@ em{font-style:italic}
 .f-osk .faq-list summary{text-transform:none;font-stretch:90%}
 @media(max-width:900px){.faq .col-l{margin-bottom:28px}}
 @media(min-width:700px){.rev-grid:has(>:nth-child(4):last-child){grid-template-columns:repeat(2,1fr)}}
+/* 24.11: czytelniejszy tekst na zdjęciu w hero */
+.hero-photo .hero-shade{background:linear-gradient(90deg,rgba(14,13,12,.64) 0%,rgba(14,13,12,.36) 48%,rgba(14,13,12,.1) 85%),linear-gradient(180deg,rgba(14,13,12,.5) 0%,rgba(14,13,12,.2) 42%,rgba(14,13,12,.8) 100%)}
+.hero-photo.center .hero-shade,.hero-photo.c .hero-shade{background:linear-gradient(180deg,rgba(14,13,12,.55) 0%,rgba(14,13,12,.42) 45%,rgba(14,13,12,.82) 100%)}
+.hero-photo h1,.hero-photo .lead,.hero-photo .eyebrow{text-shadow:0 2px 30px rgba(0,0,0,.3)}
